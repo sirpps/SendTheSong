@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 import Marquee from "@/components/ui/marquee";
 import BlurFade from "@/components/ui/blur-fade";
 
-export function BlurFadeTextDemo() {
+const BlurFadeTextDemo = () => {
   return (
     <section id="header">
       <BlurFade delay={0.25} inView>
